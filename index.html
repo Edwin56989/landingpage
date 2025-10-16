@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanes Fut | Entrenamiento de Alto Rendimiento en Cancha Platini, León Gto.</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carga de Font Awesome para íconos (WhatsApp, Mail, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --color-primary: #10B981;
+            --color-secondary: #1F2937;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .card-hover {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="bg-gray-900 text-white p-4 shadow-xl sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-extrabold tracking-tight text-green-400">TITANES FUT</h1>
+            <div class="space-x-4 flex items-center">
+                <a href="tel:4776922735" class="hover:text-green-400 transition hidden sm:inline">
+                    <i class="fas fa-phone mr-1"></i> 477 692 2735
+                </a>
+                <a href="#contacto" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 shadow-lg">
+                    ¡COTIZA AHORA!
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="relative h-screen flex items-center justify-center text-white overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://placehold.co/1200x800/000000/10B981?text=JUGADOR+DE+FUTBOL+EN+ACCION');">
+            <div class="absolute inset-0 bg-gray-900 opacity-70"></div>
+        </div>
+
+        <div class="relative z-10 text-center p-6 md:p-12 max-w-4xl rounded-lg bg-black bg-opacity-50 shadow-2xl">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight text-green-400 text-shadow">
+                Entrenamiento de Fútbol de Alto Rendimiento en la Exclusiva <strong>"Cancha Platini"</strong>
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light text-white">
+                Transforma tu juego con metodologías élite, entrenado por profesionales certificados en la mejor instalación de León, Gto.
+            </p>
+            <a href="https://wa.me/5214776922735?text=Hola,%20me%20interesa%20el%20entrenamiento%20de%20alto%20rendimiento%20en%20Cancha%20Platini." target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white text-xl font-bold py-4 px-10 rounded-full transition duration-300 shadow-2xl transform hover:scale-105">
+                <i class="fab fa-whatsapp mr-2"></i> Inscríbete por WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- ENTRENADORES -->
+    <section id="entrenadores" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-extrabold text-center mb-4 text-gray-900">
+                El Éxito es Portable: Conoce a <strong>Nuestros Entrenadores</strong>
+            </h2>
+            <p class="text-center text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+                La verdadera autoridad reside en la experiencia y metodología. Nuestro equipo está certificado para llevarte al siguiente nivel.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-900 text-white rounded-xl shadow-lg p-6 text-center card-hover">
+                    <img src="https://placehold.co/150x150/10B981/ffffff?text=RG" alt="Ricardo García" class="rounded-full mx-auto mb-4 border-4 border-green-500">
+                    <h3 class="text-2xl font-bold mb-2 text-green-400">Ricardo García</h3>
+                    <p class="text-sm italic mb-4">Especialista en Táctica y Estrategia</p>
+                    <ul class="text-left space-y-2 text-gray-300 text-sm">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Certificación PRO en Metodología Élite.</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Experiencia en desarrollo juvenil.</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Enfoque en lectura de juego.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-900 text-white rounded-xl shadow-lg p-6 text-center card-hover">
+                    <img src="https://placehold.co/150x150/10B981/ffffff?text=EG" alt="Edwin García" class="rounded-full mx-auto mb-4 border-4 border-green-500">
+                    <h3 class="text-2xl font-bold mb-2 text-green-400">Edwin García</h3>
+                    <p class="text-sm italic mb-4">Experto en Acondicionamiento Físico</p>
+                    <ul class="text-left space-y-2 text-gray-300 text-sm">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Entrenador físico de alto rendimiento.</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Programas de velocidad y resistencia.</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Prevención y rehabilitación de lesiones.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-900 text-white rounded-xl shadow-lg p-6 text-center card-hover">
+                    <img src="https://placehold.co/150x150/10B981/ffffff?text=ES" alt="Erick Sedeño" class="rounded-full mx-auto mb-4 border-4 border-green-500">
+                    <h3 class="text-2xl font-bold mb-2 text-green-400">Erick Sedeño</h3>
+                    <p class="text-sm italic mb-4">Desarrollo de Habilidades Técnicas</p>
+                    <ul class="text-left space-y-2 text-gray-300 text-sm">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Certificado en Coaching Deportivo.</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Metodología enfocada en la técnica individual.</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i> Manejo avanzado de balón y precisión.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="https://wa.me/5214776922735?text=Quiero%20saber%20m%C3%A1s%20sobre%20el%20equipo%20de%20entrenadores." target="_blank" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 shadow-md">
+                    Agenda una Evaluación Inicial Gratuita
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-extrabold text-center mb-12 text-gray-900">
+                Nuestra Metodología: Tu Camino al Alto Rendimiento
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div class="text-center bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500">
+                    <i class="fas fa-users-cog text-4xl text-green-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Planes Personalizados</h3>
+                    <p class="text-gray-600 text-sm">Diseñamos el entrenamiento según tus metas: Niños, Juveniles, Porteros o Pro.</p>
+                </div>
+                <div class="text-center bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500">
+                    <i class="fas fa-running text-4xl text-green-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Velocidad y Agilidad</h3>
+                    <p class="text-gray-600 text-sm">Mejora tu Agilidad, Reacción y Explosividad para dominar el campo.</p>
+                </div>
+                <div class="text-center bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500">
+                    <i class="fas fa-dumbbell text-4xl text-green-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Fuerza y Resistencia</h3>
+                    <p class="text-gray-600 text-sm">Desarrolla la Resistencia específica y la Fuerza necesaria para 90 minutos.</p>
+                </div>
+                <div class="text-center bg-white p-6 rounded-xl shadow-lg border-t-4 border-green-500">
+                    <i class="fas fa-chart-line text-4xl text-green-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Medición de Progreso</h3>
+                    <p class="text-gray-600 text-sm">Seguimiento constante de tu Coordinación y mejora individual.</p>
+                </div>
+            </div>
+
+            <div class="bg-gray-900 text-white p-8 rounded-xl shadow-2xl">
+                <h3 class="text-3xl font-bold text-green-400 mb-4">¿Por qué Titanes Fut en Cancha Platini?</h3>
+                <p class="text-lg font-light">
+                    Mientras que las clases grupales te ofrecen atención limitada, nosotros garantizamos <strong>sesiones 100% enfocadas</strong> en tus áreas de oportunidad. Entrenar en Cancha Platini te da acceso a un espacio dedicado y profesional, asegurando que cada repetición y cada ejercicio contribuyan directamente a tus objetivos de Alto Rendimiento.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section id="como-funciona" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-extrabold text-center mb-4 text-gray-900">
+                Tu Próximo Nivel en 3 Pasos
+            </h2>
+            <p class="text-center text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+                Nuestro proceso es sencillo y transparente, centrado en maximizar tu tiempo en Cancha Platini.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 rounded-xl border-2 border-green-500">
+                    <div class="text-5xl font-extrabold text-green-500 mb-2">1</div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Contacto y Cotización</h3>
+                    <p class="text-gray-600">Contáctanos por WhatsApp para definir tus objetivos (edad, posición, metas) y recibir una cotización.</p>
+                </div>
+                <div class="p-6 rounded-xl border-2 border-green-500">
+                    <div class="text-5xl font-extrabold text-green-500 mb-2">2</div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Evaluación Inicial</h3>
+                    <p class="text-gray-600">Realizamos una sesión de diagnóstico en Cancha Platini para medir tus capacidades actuales.</p>
+                </div>
+                <div class="p-6 rounded-xl border-2 border-green-500">
+                    <div class="text-5xl font-extrabold text-green-500 mb-2">3</div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-900">Ejecución del Plan</h3>
+                    <p class="text-gray-600">Comenzamos el plan personalizado, enfocado en tus métricas de mejora.</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center max-w-2xl mx-auto p-6 bg-gray-50 rounded-xl shadow-inner">
+                <h3 class="text-2xl font-bold text-green-600 mb-2">UBICACIÓN PRINCIPAL DE ENTRENAMIENTO</h3>
+                <p class="text-xl text-gray-800 font-semibold mb-4"><i class="fas fa-futbol mr-2 text-green-600"></i> Cancha Platini, León Gto.</p>
+                <p class="text-sm text-gray-500">Aquí se llevan a cabo todas las sesiones de alto rendimiento con equipo profesional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-extrabold mb-4 text-green-400">
+                ¡Deja de entrenar, y comienza a dominar!
+            </h2>
+            <p class="text-xl mb-8 font-light text-gray-300">
+                Contáctanos hoy y da el primer paso hacia tu máximo potencial futbolístico.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="https://wa.me/5214776922735?text=Deseo%20cotizar%20un%20plan%20de%20entrenamiento%20en%20Cancha%20Platini." target="_blank" class="bg-green-600 hover:bg-green-700 text-white text-xl font-bold py-3 px-8 rounded-full transition duration-300 shadow-xl transform hover:scale-105">
+                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp: 477 692 2735
+                </a>
+                <a href="mailto:56989leo@universidaddeleon.edu.mx" class="bg-white text-gray-900 hover:bg-gray-200 text-xl font-bold py-3 px-8 rounded-full transition duration-300 shadow-xl transform hover:scale-105">
+                    <i class="fas fa-envelope mr-2"></i> Enviar Correo
+                </a>
+            </div>
+            
+            <div class="mt-12 text-gray-400 border-t border-gray-700 pt-8">
+                <p class="mb-2 font-semibold">Oficina Administrativa (Solo Referencia):</p>
+                <p class="text-sm">Matilde Montoya #301, col. Los Olivos, León Gto, México</p>
+                <p class="text-sm mt-4">Entrenamiento Exclusivo en <strong>Cancha Platini</strong>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-center p-4 text-gray-500 text-sm">
+        &copy; 2025 Titanes Fut. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
